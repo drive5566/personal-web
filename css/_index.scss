@@ -1,0 +1,413 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    line-height: 28px;
+    box-shadow: 0 1px 10px 4px rgba(0, 0, 0, .1);
+
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo h1 {
+    font-size: $font24;
+    font-weight: $fontWight700;
+}
+
+.material-symbols-outlined {
+    color: rgb(253, 253, 82);
+    font-size: 28px;
+}
+
+.logo span {
+    margin: 0 10px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    padding: 10px;
+}
+
+.nav a:hover {
+    color: rgb(107, 233, 128);
+    transition: .5s;
+}
+
+.about-me-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 150px auto;
+    justify-content: space-between;
+
+}
+
+.main {
+    padding: 250px 0;
+}
+
+
+
+.about-me-left {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(126, 127, 134, .4);
+    padding: 40px 0 60px 0;
+    box-shadow: 0 1px 20px 1px rgba(0, 0, 0, .2);
+}
+
+.about-me-left{
+    p{
+        line-height: 150%;
+    }
+}
+
+.about-me-left h3 {
+    text-align: center;
+    font-size: $font24;
+    font-weight: $fontWight700;
+    margin: 5px 0;
+}
+
+.about-me-left .line {
+    border-top: 3px solid rgb(107, 233, 128);
+    width: 30px;
+    margin: 15px 0;
+}
+
+.about-me-right h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.about-me-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 40px 60px 40px;
+    background-color: rgb(126, 127, 134, .2);
+
+
+    p {
+        line-height: 140%;
+        text-indent: 2em;
+        margin-top: 5px;
+    }
+}
+
+.about-me-img {
+    // width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.about-me-img img {
+    max-width: 100%;
+    transition: all .5s;
+    width: 200px;
+    &:hover {
+        transform: scale(110%);
+    }
+}
+
+
+
+.experience-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 350px 0;
+}
+
+.experience-header {
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    padding-top: 0;
+    line-height: 50px;
+
+}
+
+.experience-content-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    width: 500px;
+    p{
+        line-height: 140%;
+    }
+
+
+}
+
+.experience-content-left {
+    border-right: 2px solid $green;
+    padding-right: 50px;
+    width: 100%;
+
+}
+
+.experience-content-container h3 {
+    font-size: $font28;
+    color: $green;
+}
+
+.experience-content-container h2 {
+    font-size: $font26;
+    margin: 20px 0;
+
+}
+
+.experience-content-right {
+    padding-left: 50px;
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+.experience-content-container .content-text-2 {
+    margin-top: 155px;
+}
+
+.experience-content-container .content-text-3 {
+    margin-top: 160px;
+}
+
+[class^='point'] {
+    position: absolute;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: $green;
+    border-radius: 50%;   
+    transition:all 1s;
+    opacity: 0;
+}
+
+.fadeInOut {
+    opacity: 1;
+  }
+
+.point-1 {
+    top: 40px;
+
+}
+
+.point-2 {
+    top: 250px;
+}
+
+.point-3 {
+    top: 500px;
+}
+
+.container-project {
+    padding-bottom: 150px;
+}
+
+.project-header {
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0;
+    line-height: 50px;
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
+.project-card {
+    display: flex;
+    margin: 150px auto;
+    justify-content: center;
+    max-width: 800px;
+    padding: 30px;
+
+
+    .card-text {
+        width: 50%;
+
+        a {
+            padding-right: 10px;
+            font-size: $font24;
+
+
+            &:hover {
+                color: $green;
+            }
+
+        }
+
+        span {
+            vertical-align: bottom;
+            color: $green;
+
+
+        }
+
+        div {
+            margin-bottom: 80px;
+        }
+
+        p{
+            line-height: 150%;
+        }
+    }
+
+    .card-img {
+        width: 50%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+
+.go-top {
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(170, 169, 169, 0.5);
+    box-shadow: .5px .5px 2px .3px black;
+    display: none;
+    cursor: pointer;
+
+    p {
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    span {
+        margin-left: 8px;
+        color: aliceblue;
+    }
+}
+
+.container-skill {
+    max-width: 400px;
+    margin: auto;
+    padding: 350px 0;
+
+    .skill-header {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 100px;
+        line-height: 50px;
+    }
+
+    .skill {
+        margin: auto;
+
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            font-weight: 700;
+
+            .bar {
+                border: 1px solid $green;
+                width: 250px;
+                height: 10px;
+                padding: 5px;
+                border-radius: 50px;
+                overflow: hidden;
+                position: relative;
+
+                [class^='value'] {
+                    background-color: $green;
+                    height: 20px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .value-move {
+                    animation: skill1 2s;
+                }
+
+            }
+
+            .value-move2 {
+                animation: skill2 2s;
+            }
+
+            .value-move3 {
+                animation: skill3 2s;
+            }
+
+            .value-move4 {
+                animation: skill4 2s;
+            }
+        }
+    }
+
+}
+
+.container-weather{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:786px){
+    .about-me-container {
+        flex-wrap: wrap;
+    }
+
+    .about-me-left {
+        width: 100%;
+    }
+    .skill{
+        li{
+            flex-direction: column;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .experience-header{
+            padding: 100px 50px;
+    }
+    .project-card{
+        max-width: 800px;
+    }
+
+    .logo{
+        span,
+        p{
+            display: none;
+        }
+    }
+
+    .container-weather{
+        display: none;
+    }
+
+    .experience-content-container{
+        width: auto;
+    }
+}
+
+

@@ -1,0 +1,62 @@
+
+
+.wrap{
+    margin: 0 auto;
+    color: white;
+    max-width: 100%;
+
+}
+
+
+
+a{
+    color: white;
+    font-weight: 700;
+
+}
+
+.background-1{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../img/pexels-photo-933054.webp);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.background-2{
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(86, 87, 99,.9);
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../img/pexels-photo-574070.webp);
+    background-attachment:fixed;
+}
+
+.background-3{
+    background-color: rgba(86, 87, 99,.9);
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../img/pexels-photo-301703.webp);
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+
+
+
+.background-4{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/pexels-photo-952670.jpeg);
+    background-color: rgb(54, 56, 63);
+    background-attachment:fixed;
+
+
+
+
+}
+
+h1,
+h2,
+h3,
+p,
+a{
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體";
+}
+
+
+

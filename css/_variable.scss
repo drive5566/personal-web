@@ -1,0 +1,56 @@
+$font20 : 20px;
+$font22 : 22px;
+$font24 : 24px;
+$font26 : 26px;
+$font28 : 28px;
+$font30 : 30px;
+
+$fontWight700 : 700;
+
+
+$green:rgb(107, 233, 128);
+
+
+@keyframes skill1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+
+}
+
+@keyframes skill2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+
+}
+
+@keyframes skill3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+}
+
+@keyframes skill4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
+
+}
