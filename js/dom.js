@@ -121,7 +121,7 @@ document.addEventListener('scroll', function () {
 
         setTimeout(function () {
             value6.classList.add('value-move4')
-            value6.style.width = 40 + '%'
+            value6.style.width = 90 + '%'
         }, 1000);
     }
 })
